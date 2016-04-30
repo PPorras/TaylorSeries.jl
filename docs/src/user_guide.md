@@ -63,6 +63,7 @@ maximum order; compare the last example below, where this is not possible:
     tI = im*t
     t^6  # order is 5
     (1-t)^3.2
+    # 1/t^3.2 # This yields an error <- CHECK THIS
     (1+t)^t
 
 If no valid Taylor expansion can be computed, an error is thrown.
